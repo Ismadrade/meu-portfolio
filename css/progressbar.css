@@ -1,0 +1,101 @@
+/*Progress Bar*/
+
+.skills{
+    list-style: none;
+ 
+}
+
+.skills h5{
+    font-weight: bold;
+}
+
+
+.skills li{
+    margin: 20px 0;
+}
+
+.bar{
+    background: #353b48;
+    display: block;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #010e1bb3;
+}
+
+.bar span{
+    height: 30px;
+    float: left;
+    background: #fdcb6e;
+}
+
+.html{
+    width: 75%;
+    animation: html 2s;
+}
+
+.css{
+    width: 75%;
+    animation: css 2s;
+}
+
+.bootstrap{
+    width: 50%;
+    animation: bootstrap 2s;
+}
+
+
+.javascript{
+    width: 50%;
+    animation: javascript 2s;
+}
+
+.java{
+    width: 30%;
+    animation: java 2s;
+}
+
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 50%;
+    }
+}
+@keyframes java {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 30%;
+    }
+}
+
+/***/

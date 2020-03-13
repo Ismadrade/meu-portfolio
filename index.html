@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ismael Andrade</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="css/progressbar.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-special1 montserrat">
+
+    <!--Menu de Navegação-->
+                <nav class="navbar fixed-top navbar-light bg-amarelo navbar-expand-lg">
+                    <a href="#" class="navbar-brand m-2">Ismael Andrade</a>
+                  
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-center" id="navbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item px-3"><a href="#" class="nav-link">Sobre</a></li>
+                            <li class="nav-item px-3"><a href="#formacao" class="nav-link">Formação</a></li>
+                            <li class="nav-item px-3"><a href="#habilidades" class="nav-link">Habilidades</a></li>
+                            <li class="nav-item px-3"><a href="#experiencias" class="nav-link">Experiências</a></li>
+                            <li class="nav-item px-3"><a href="#contato" class="nav-link">Contato</a></li>
+                        </ul>
+                    </div>     
+                </nav>
+                
+                <div id="scrollspy-content" data-spy="scroll" data-target="#navbar" data-offset="0">
+                <!--Sobre mim-->
+                <div class="container myperson">
+                    <div class="row my-4">
+                        <div class="col text-center"><h2 class="p-2">Um pouco sobre mim</h2></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col img-perfil"></div>
+                    </div>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-12 col-lg-6 text-justify  about-me pt-5">
+                            <p>Sou <strong>Ismael da Silva de Andrade</strong>, tenho 26 anos, nasci em 9 de Setembro de 1993, na cidade de Porto Alegre/RS e atualmente moro em Santa Catarina.</p>
+                            <p>Cursando <strong>Sistemas de Informações</strong> pela Estácio desde 02/2019, descobri um pouco mais sobre as atuais tecnologias e me identifiquei com a área de desenvolvimento web.</p>
+                        
+                            <p>Comecei a rever as praticas de Orientação  Objetos com a linguagem JAVA, criando pequenos formularios utilizando JSP e JDBC e tive uma pequena introdução a JSF e Hibernate.</p>
+                            <p>Já no frontend, comecei a estudar HTML5 e CSS3 após ter uma introdução pela faculdade. Além do HTML e CSS, terminei recentemente um curso de Bootstrap 4, na intenção de melhorar e agilizar ainda mais o desenvolvimento web. Atualmente estou realizando um curso de Java para compreender melhor JPA, e JavaScript na intenção de aprender desde o basico, Ajax e Json, para enfim ter a base nescessaria para estudar React ou algum Framework de JS como Angular ou Vue.</p>
+                        </div>                   
+                <!--Sobre mim / Barra de Skills-->
+                        <div class="col-12 col-lg-6 mt-4">
+                            <div class="skills">
+                                <li>
+                                    <h5>HTML <i class="fab fa-html5"></i></h5><span class="bar"><span class="html"></span></span>
+                                </li>
+                                <li>
+                                    <h5>CSS <i class="fab fa-css3-alt"></i></h5><span class="bar"><span class="css"></span></span>
+                                </li>
+                                <li>
+                                    <h5>Bootstrap <i class="fab fa-bootstrap"></i></h5><span class="bar"><span class="bootstrap"></span></span>
+                                </li>
+                                <li>
+                                    <h5>JavaScript / Jquery <i class="fab fa-js-square"></i></h5><span class="bar"><span class="javascript"></span></span>
+                                </li>
+                                <li>
+                                    <h5>Java <i class="fab fa-java"></i></h5><span class="bar"><span class="java"></span></span>
+                                </li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Formação-->
+                <div class="bg-dark pt-5">
+                    <div class="container formation">
+                        <div class="row my-4">
+                            <div id="formacao" class="col text-center">
+                            <h2>Formação Acadêmica</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-lg-6">
+                            <div class="accordion" id="accordion">
+                                <div class="card border-dark">
+                                    <div class="card-header bg-amarelo">
+                                        <div class="text-center"  data-toggle="collapse" data-target="#protasio">
+                                            <h5 class="pt-2"> <strong>Técnico em Informática para Internet</strong></h5>
+                                        </div>
+                                    </div>
+                                    <div id="protasio" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p><strong>Instituição: </strong> Colégio Protásio Alves</p>
+                                            <p><strong>Endereço: </strong> Av. Ipiranga n 1090, Porto Alegre/RS</p>
+                                            <p><strong>Status/ano: </strong> Concluído - 2010</p>
+                                            <p><strong>Site: </strong> <a href="http://www.cpa-rs.esy.es/">http://www.cpa-rs.esy.es/</a></p>
+                                            <p><strong>Descrição: </strong> Conhecimentos básicos de html e css bem como javascript, introdução à redes, programação Orientada a Objetos com Java e noção em banco de dados MySql</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-lg-6">
+                            <div class="accordion" id="accordion">
+                                <div class="card border-dark">
+                                    <div class="card-header bg-amarelo">
+                                        <div class="text-center"  data-toggle="collapse" data-target="#estacio">
+                                            <h5 class="pt-2"> <strong>Bacharel em Sistemas de Informação</strong></h5>
+                                        </div>
+                                    </div>
+                                    <div id="estacio" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <p><strong>Instituição: </strong> Estácio de Sá</p>
+                                            <p><strong>Endereço: </strong> Rod. José Carlos Daux, 407 - Saco Grande, Florianópolis - SC</p>
+                                            <p><strong>Status/ano: </strong> Em Andamento - 3º Semestre</p>
+                                            <p><strong>Site: </strong> <a href="https://portal.estacio.br/?estado=SC">https://portal.estacio.br/?estado=SC</a></p>
+                                            <p><strong>Disciplinas concluídas: </strong> Fundamento de Redes de Computadores, Introdução a Programação (C++), Cenários de Tecnologia da Informação, Organização e Arquitetura de Computadores, Gestão de Serviços para TI, Governança em TI, Segurança da Informação e Tecnologias para Internet.</p>
+                                            <p><strong>Disciplinas em andamento: </strong> Programação I (JAVA Orientação a Objetos), Indicadores de Desempenho em TI, Gerencia de Projetos em TI, Projeto de Banco de Dados,  Probabilidade e Estatística Computacional.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <!--Habilidades-->
+                    <div class="container my-5 myskills">
+                        <div class="row mb-5">
+                            <div id="habilidades" class="col text-center"><h2>Minhas Habilidades</h2></div>
+                        </div>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-12 col-md-4  text-center  pb-5">
+                                <img src="img/html5.png" class="img-fluid mb-3">
+                                <p class="text-justify">Além da estrutura básica do html (nav, section, footer), faço uso de divs para manipular com css e bootstrap. Além de sempre manter o código limpo.</p>
+                            </div>
+                            <div class="col-12 col-md-4 text-center pb-5">
+                                <img src="img/css3.png" class="img-fluid mb-3">
+                                <p class="text-justify">Conhecimento básico do css(margin, padding, cores, fontes, position), display flex e  media query. Não estou habituado a utilizar o animation, porém quando preciso, procuro pesquisar sobre e aplico em meus projetos.</p>
+                            </div>
+                            <div class="col-12 col-md-4 text-center pb-5">
+                                <img src="img/javascript.png" class="img-fluid mb-3">
+                                <p class="text-justify">Conceito basico (var, function, object), ES6(let, const, destructuring, arrow functions, map, reduce, filter), conceitos de herança no javascript.</p>
+                            </div>
+                        </div>
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-12 col-md-4 text-center pb-5">
+                                <img src="img/bootstrap.png" class="img-fluid mb-3">
+                                <p class="text-justify">Sistema de grid, alerts, accordion, card, collapse, drop-down, utilização do flexbox(d-flex, justify-content, align-items), forms(input-groups), modal, nav, scrollspy, spiner, bloquote. Quando necessário, verifico a documentação do Bootstrap para rever alguns conceitos e realizar a aplicação corretamente das propriedades. </p>
+                            </div>
+                            <div class="col-12 col-md-4 text-center pb-5">
+                                <img src="img/jquery.png" class="img-fluid mb-3">
+                                <p class="text-justify">inserção de conteúdo html e css (append(), css()), animate(), utilização de eventos como click(), hover(), mouseon(), mouseover(). </p>
+                            </div>
+                            <div class="col-12 col-md-4 text-center pb-5">
+                                <img src="img/java.png" class="img-fluid mb-5">
+                                <p class="text-justify">Lógica de programação(if else, for, while), Orientação a objetos (classe, herança, polimorfismo), tratamento de erros (try, catch), conceito basico de JSP juntamente com JDBC e introdução à JSF e Hibernate</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Experiencias Anteriores-->
+                <div class="bg-dark py-5">
+                    <div class="container experience">
+                        <div class="row mb-5">
+                            <div id="experiencias" class="col text-center"><h2>Minhas Experiências</h2></div>
+                        </div>
+                        <div class="card text-dark  mx-auto mb-5">
+                            <div class="card-header bg-amarelo text-center">
+                                <h5 class="card-title"><strong>Serede Telecomunicações</strong></h5>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text"><strong>Ano: </strong> 2012 - 2019</p>
+                                <p class="card-text"><strong>Cargo: </strong> Analista de Comunicação de Dados</p>
+                                <p class="card-text"><strong>Descrição: </strong>Suporte aos técnicos de Campo, monitoramento dos chamados abertos pelos clientes empresariais, realização de testes em circuitos de comutação de dados.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Contato-->
+                <div class="container contact py-5">
+                    <div class="row mb-5">
+                        <div id="contato" class="col text-center"><h2>Contato</h2></div>
+                    </div>
+                    <form novalidate method="POST" action="https://formspree.io/maelandrade@yahoo.com.br" class="needs-validation w-50 mx-auto">
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <label for="Nome">Nome:</label>
+                                <input class="form-control" type="text" name="nome" id="nome" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <label for="email">Email:</label>
+                                <input class="form-control" type="email" name="email" id="email" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="col form-group">
+                                <label for="menssagem">Mensagem:</label>
+                                <textarea name="menssagem" id="menssagem" cols="30" rows="10" class="form-control" required></textarea>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col form-group">
+                                <button type="submit" class="btn btn-dark btn-block">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <!--Rodapé-->
+                <footer class="bg-dark text-white">
+                    <div class="container d-flex justify-content-around pt-3">
+                        <p class="p-2"><strong>Email: </strong> maelandrade@yahoo.com.br</p>
+                        <p class="p-2"><strong>Telefone: </strong> (48) 9 8466-4281</p>
+                    </div>
+                </footer>
+
+
+
+
+
+    
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="js/validate.js"></script>
+</body>
+</html>

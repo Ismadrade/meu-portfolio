@@ -1,0 +1,102 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-amarelo{
+    background-color: #fdcb6e;
+}
+
+.bg-special1{
+    background-color: #f1f2f6;
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav li{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.navbar-nav li:hover{
+    background-color: #e2b86e;
+}
+
+.myperson{
+    margin-top: 100px;
+}
+
+.myperson .img-perfil{
+    background-image: url('../img/Ismael.jpg');
+    background-size: cover;
+    min-height: 25vh;
+    border-radius: 100%;
+    max-width: 25vh;
+}
+
+.myperson h2{
+    border-top: 2px solid #535c68;
+    border-bottom: 2px solid #535c68;
+    color: #535c68;
+
+}
+
+.formation{
+    min-height: 75vh;
+}
+
+.formation a{
+    color: #212529 ;
+}
+
+.formation h2{
+    border-top: 2px solid #f1f2f6;
+    border-bottom: 2px solid #f1f2f6;
+    color: #f1f2f6;
+}
+
+.formation .card-header{
+    cursor: pointer;
+}
+
+.myskills h2{
+    border-top: 2px solid #535c68;
+    border-bottom: 2px solid #535c68;
+    color: #535c68;
+}
+.myskills img{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.experience h2{
+    border-top: 2px solid #f1f2f6;
+    border-bottom: 2px solid #f1f2f6;
+    color: #f1f2f6;
+}
+
+.experience .card-body p{
+    margin: 3% 2%;
+}
+
+.contact h2{
+    border-top: 2px solid #535c68;
+    border-bottom: 2px solid #535c68;
+    color: #535c68;
+
+}
+
+@media (min-width: 992px) { 
+    .navbar-nav li:hover {
+        background-color: #fdcb6e;
+    }
+    .experience .card{
+        width: 60%;
+    }
+ }
